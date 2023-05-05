@@ -1,18 +1,22 @@
 export default () => {
     return (
-        <footer class={"columns-2 flex p-4 mx-8"}>
-            <div class={"w-full left-0"}>
-                GoJob
+        <footer class={"flex justify-between p-4 mx-8"}>
+            <div class={""}>
+                <p class={"font-bold text-xl"}>
+                    GoJob
+                </p>
                 <ul>
                     <li>About</li>
-                    <li>Github</li>
+
+                    <li>Githb</li>
                     <li>Collaborate</li>
                 </ul>
             </div>
 
             <nav class={""}>
-                Community
-
+                <p class={"font-bold text-xl"}>
+                Communityy
+                </p>
                 <ul>
                     <li>Privacy</li>
                     <li>Cookies</li>
